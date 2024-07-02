@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cp ../database-andix.db .
+
 # Set current date as commit message
 commit_message="Commit on $(date +"%Y-%m-%d %H:%M:%S")"
 
